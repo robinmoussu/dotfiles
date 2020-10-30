@@ -1,0 +1,24 @@
+[submodule ".vim/pack/plugins/disable/rust.vim"]
+	path = .vim/pack/plugins/disable/rust.vim
+	url = https://github.com/rust-lang/rust.vim
+[submodule ".vim/pack/plugins/start/git@github.com:majutsushi/tagbar.git"]
+	path = .vim/pack/plugins/start/git@github.com:majutsushi/tagbar.git
+	url = git@github.com:vim-scripts/nuvola.vim.git
+[submodule ".vim/pack/plugins/start/vim-ripgrep"]
+	path = .vim/pack/plugins/start/vim-ripgrep
+	url = https://github.com/jremmen/vim-ripgrep.git
+[submodule ".vim/pack/plugins/start/nuvola.vim"]
+	path = .vim/pack/plugins/start/nuvola.vim
+	url = git@github.com:vim-scripts/nuvola.vim.git
+[submodule ".vim/pack/plugins/start/vim-toml"]
+	path = .vim/pack/plugins/start/vim-toml
+	url = git@github.com:cespare/vim-toml.git
+[submodule ".vim/pack/plugins/start/undotree"]
+	path = .vim/pack/plugins/start/undotree
+	url = git@github.com:mbbill/undotree.git
+[submodule ".vim/pack/plugins/start/tagbar"]
+	path = .vim/pack/plugins/start/tagbar
+	url = git@github.com:majutsushi/tagbar.git
+[submodule ".vim/pack/plugins/start/vim-fugitive"]
+	path = .vim/pack/plugins/start/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive.git

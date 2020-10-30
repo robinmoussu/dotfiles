@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/rmoussu/dev/tour-generation/tour_generation/lib/tour_generation_python/bench'
+let g:netrw_dirhist_5='/home/rmoussu/dev/tour-generation/tour_generation/lib/tour_generation/src'
+let g:netrw_dirhist_4='/home/rmoussu/dev/tour-generation/tour_generation/lib/tour_generation'
+let g:netrw_dirhist_3='/home/rmoussu/dev/tour-generation/tour_generation/src/tour_generation'
+let g:netrw_dirhist_2='/home/rmoussu/dev/tour-generation/tour_generation/src/tour_generation/src'
+let g:netrw_dirhist_1='/home/rmoussu/dev/tour-generation/tour_generation/src/tour_generation'
+let g:netrw_dirhist_0='/home/rmoussu/dev/tour-generation/tour_generation/src'
+let g:netrw_dirhist_9='/home/rmoussu/dev/tour-generation/tour_generation'
+let g:netrw_dirhist_8='/home/rmoussu/dev/tour-generation'
+let g:netrw_dirhist_7='/home/rmoussu/dev/tour-generation/tour_generation/lib/petgraph'
