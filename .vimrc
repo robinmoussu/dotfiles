@@ -15,7 +15,10 @@ set autoread
 set autowriteall
 set ignorecase
 set smartcase
-filetype on
+set hlsearch
+set incsearch
+syntax enable
+filetype plugin indent on
 
 set undodir=~/.vim/undodir
 set undofile
@@ -114,7 +117,7 @@ augroup Perso
     au CursorHold,CursorHoldI * checktime
     au FocusGained,BufEnter * checktime
 
-    au BufEnter *.cpp,*.c,*.cc,*.hh,*.h,*.py,*.sh set number
+    au BufEnter *.cpp,*.c,*.cc,*.hh,*.h,*.py,*.sh,*.rs set number
 
     au BufEnter *.sh let &l:makeprg='./%'
     au BufEnter Cargo.toml,Cargo.lock compiler cargo

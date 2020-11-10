@@ -3,10 +3,8 @@
 	ci = commit
 	co = checkout
 	amend = commit --amend --no-edit
-	ggraph = log --graph --pretty='%C(auto)%<|(14)%h %C(green)%<|(28,trunc)%an%C(auto) %C(blue)%ad%C(auto)%d %s' --date=format:'%d %b %H:%M'
-	graph = !sh -c 'git ggraph --color=always \"$@\" HEAD | rg --color=always --no-line-number --passthru -- \"$(echo -- \"$@\" | tr \" \" \"|\")\" | less' -
-	up = !sh -c 'git ggraph HEAD --branches --boundary master.. --since \"$(git log -n1 --pretty='%ad' master)\" --color=always \"$@\" | rg --color=always --no-line-number --passthru -- \"$(echo -- \"$@\" | tr \" \" \"|\")\" | less' -
-	#up = !sh -c '~/scripts/git_up --boundary master..  "$@"' -
+	graph = log --graph --pretty='%C(auto)%<|(14)%h %C(green)%<|(28,trunc)%an%C(auto) %C(blue)%ad%C(auto)%d %s' --date=format:'%d %b %H:%M'
+	up = graph --all
 	copy-commit-message = "!sh -c 'revision=\"$1\"; shift; git rev-list --format=%B --max-count 1 \"${revision}\" | sed \"1!p\" -n | xargs -0 -I{} git commit -m \"{}\" \"$@\"' -"
 	difftool = difftool --dir-diff
 	review = log --patience --patch --reverse dev..
