@@ -69,7 +69,7 @@ set statusline+=\ %l:%c
 set statusline+=\ 
 
 " display diff in a vertical split when commiting
-function OpenCommitMessageDiff()
+function! OpenCommitMessageDiff()
   " Save the contents of the z register
   let old_z = getreg("z")
   let old_z_type = getregtype("z")
